@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "6121ed2f-28f3-47f4-873a-507b4ce6d5be"
+        },
+        "name": {
+            "value": "ForwardFootball"
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "hostingPlanName": {
+            "value": "ASP-forwardfootballresourcegroup-b9a9"
+        },
+        "serverFarmResourceGroup": {
+            "value": "forwardfootballresourcegroup"
+        },
+        "databaseName": {
+            "value": "forwardfootballdatabase"
+        },
+        "sku": {
+            "value": "PremiumV2"
+        },
+        "skuCode": {
+            "value": "P1v2"
+        },
+        "workerSize": {
+            "value": ""
+        },
+        "workerSizeId": {
+            "value": ""
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "DOTNETCORE|3.1"
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "sqlDbSkuName": {
+            "value": "GP_S_Gen5_1"
+        },
+        "sqlDbTierName": {
+            "value": "GeneralPurpose"
+        },
+        "serverName": {
+            "value": "forwardfootballserver"
+        },
+        "serverUsername": {
+            "value": "forwardfootballserver-admin"
+        },
+        "serverPassword": {
+            "value": null
+        }
+    }
+}
